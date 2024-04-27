@@ -8,7 +8,6 @@
 font-family: 'Poppins', sans-serif;
 ==================================== */
 
-
 /*=========== TABLE OF CONTENTS ===========
 1.  General css (Reset code)
 2.  Header
@@ -26,59 +25,85 @@ font-family: 'Poppins', sans-serif;
 		1.General css (Reset code)
 --------------------------------------*/
 * {
-    padding: 2px;
-    margin: 0;
+  padding: 2px;
+  margin: 0;
+}
+html {
+  background: #eae6cd;
 }
 
 body {
-	font-family: 'Poppins', sans-serif;
-	font-size:18px;
-	color: #3d405b;
-	background: #f4f1de;
-    max-width:600px;
-    margin:0 auto;
-	overflow-x:hidden;
-	line-height:1.2;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  color: #3d405b;
+  background: #f6f5f2;
+  box-sizing: border-box;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px 40px;
+  overflow-x: hidden;
+  line-height: 1.2;
 }
 
 a {
-	display:inline-block;
-	text-decoration: underline;
-	color: #006d77;
-	padding:0;
+  display: inline-block;
+  text-decoration: underline;
+  color: #006d77;
+  padding: 0;
 }
 
-h1 { 
-	margin-top: 20px;
-	color:#e07a5f;
-    font-size: 26px;
-	font-family: 'Poppins', sans-serif;
-	text-transform: capitalize;
+h1 {
+  margin: 20px auto;
+  color: #e07a5f;
+  font-size: 26px;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
 }
 
 p {
-	margin: 0;
-	font-family: 'Poppins', sans-serif;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
 }
 
-img{border:none;max-width:100%; height:auto;}
-
-ul,ol{
-	padding: 0;
-    margin: 16px 8px;
+img {
+  border: none;
+  max-width: 100%;
+  height: auto;
 }
+
+ul {
+  padding: 0;
+  margin: 20px 0px 20px 12px;
+}
+ul ol {
+  padding: 0;
+  margin: 8px 12px;
+}
+
 li {
-	margin: 8px 0 0px 16px;	
+  margin: 2px 0 2px 16px;
 }
-select,input,textarea,button{box-shadow:none;outline:0!important;}
-button {background: transparent;border: 0;}
-
-html,body{
-    height: 100%;
-	position: relative;
+select,
+input,
+textarea,
+button {
+  box-shadow: none;
+  outline: 0 !important;
+}
+button {
+  background: transparent;
+  border: 0;
 }
 
+html,
+body {
+  height: 100%;
+  position: relative;
+}
 
-.fix{position: relative;clear: both;}
+.fix {
+  position: relative;
+  clear: both;
+}
 
 /*=============Style css=========*/
