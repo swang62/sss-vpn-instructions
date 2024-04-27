@@ -8,13 +8,15 @@ jobs:
   upload:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@main
+      - name: Checkout repo
+        uses: actions/checkout@main
+
       - name: Minio Deploy
-        uses: hkdobrev/minio-deploy-action@v1
+        uses: hkdobrev/minio-deploy-action@1.1.0
         with:
-          endpoint: https://s3.mildlybrewed.com
+          endpoint: https://s3-api.mildlybrewed.com
           access_key: ${{ secrets.MINIO_ACCESS_KEY }}
           secret_key: ${{ secrets.MINIO_SECRET_KEY }}
           bucket: "sssvpn"
-          source_dir: "public"
+          source_dir: "./public"
           target_dir: "/"
