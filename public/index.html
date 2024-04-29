@@ -6,7 +6,7 @@
   <title>Setup | SSS-VPN</title>
 
   <body>
-    <h1>Setup your VPN clients</h1>
+    <h1>Setup VPN clients</h1>
 
     <p>
       First, click on the power icon to download and install the correct app for
@@ -21,8 +21,17 @@
       <li>
         Andriod/iOS
         <ol>
-          <li>Scan the QR code to add a profile</li>
+          <li>Scan the QR code to add your profile</li>
           <li>Make sure to activate the VPN mode</li>
+          <li>
+            In the config options menu, update these settings:
+            <ul>
+              <li>Remote DNS = tcp://8.8.8.8</li>
+              <li>Strategy = ipv4_only</li>
+              <li>Direct DNS = 8.8.8.8</li>
+              <li>Direct Strategy = ipv4_only</li>
+            </ul>
+          </li>
           <li>
             Use the per-app proxy settings to allow apps like Taobao to bypass
             the VPN
@@ -40,7 +49,7 @@
             Administrator'
           </li>
           <li>
-            To add a profile, copy the shared link and import from clipboard
+            To add your profile, copy the shared link and import from clipboard
           </li>
           <li>Make sure to activate the VPN mode</li>
         </ol>
