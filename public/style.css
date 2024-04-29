@@ -15,7 +15,7 @@ body {
   color: #3d405b;
   background: #f6f5f2;
   max-width: 600px;
-  height: 100vh;
+  height: 100%;
   margin: 0px auto 0px auto;
   padding: 20px 40px;
   line-height: 1.2;
@@ -74,12 +74,7 @@ button {
 }
 
 @media (max-width: 480px) {
-  html {
-    padding: 0;
-  }
-
   body {
-    height: 100%;
     max-width: fit-content;
     padding: 20px 20px;
   }
