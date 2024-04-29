@@ -1,34 +1,11 @@
-/*==================================
-* Author        : "ThemeSine"
-* Template Name :  Browny  HTML Template
-* Version       : 1.0
-==================================== */
-
-/*==================================
-font-family: 'Poppins', sans-serif;
-==================================== */
-
-/*=========== TABLE OF CONTENTS ===========
-1.  General css (Reset code)
-2.  Header
-3.  Welcome-hero
-4.  About me 
-5.  Education
-6.  Skill
-7.  Experience
-8.  Profiles
-9.  Portfolio
-10. Clients
-11. Contact
-
-/*-------------------------------------
-		1.General css (Reset code)
---------------------------------------*/
 * {
   padding: 2px;
   margin: 0;
 }
+
 html {
+  margin: 0;
+  padding: 0;
   background: #eae6cd;
 }
 
@@ -37,16 +14,16 @@ body {
   font-size: 18px;
   color: #3d405b;
   background: #f6f5f2;
-  box-sizing: border-box;
-  max-width: 700px;
-  margin: 0 auto;
+  max-width: 600px;
+  height: 100vh;
+  margin: 0px auto 0px auto;
   padding: 20px 40px;
-  overflow-x: hidden;
   line-height: 1.2;
 }
 
 a {
   display: inline-block;
+  font-size: 18px;
   text-decoration: underline;
   color: #006d77;
   padding: 0;
@@ -83,6 +60,7 @@ ul ol {
 li {
   margin: 2px 0 2px 16px;
 }
+
 select,
 input,
 textarea,
@@ -95,15 +73,15 @@ button {
   border: 0;
 }
 
-html,
-body {
-  height: 100%;
-  position: relative;
-}
+@media (max-width: 480px) {
+  html {
+    padding: 0;
+  }
 
-.fix {
-  position: relative;
-  clear: both;
+  body {
+    height: 100%;
+    max-width: fit-content;
+    padding: 20px 20px;
+  }
 }
-
 /*=============Style css=========*/
